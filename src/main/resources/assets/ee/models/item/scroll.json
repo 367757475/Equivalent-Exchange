@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ee:items/scroll",
+    "layer1": "ee:items/scroll_overlay"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ee:items/alchemical_bag",
+    "layer1": "ee:items/alchemical_bag_overlay"
+  }
+}

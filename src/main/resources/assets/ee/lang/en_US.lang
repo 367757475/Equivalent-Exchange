@@ -1,0 +1,41 @@
+# Creative Tabs
+itemGroup.ee=Equivalent Exchange
+
+# Items
+item.ee:aeternalis_fuel.name=Aeternalis Fuel
+item.ee:alchemical_bag.name=Alchemical Bag
+item.ee:alchemical_coal.name=Alchemical Coal
+item.ee:alchenomicon.name=Alchenomicon
+item.ee:calcined_ash.name=Calcined Ash
+item.ee:chalk.name=Chalk
+item.ee:cloak.name=Cloak
+item.ee:dark_matter.name=Dark Matter
+item.ee:minium_dust.name=Minium Dust
+item.ee:mobius_fuel.name=Mobius Fuel
+item.ee:scroll.name=Scroll
+
+# Armor
+item.ee:dark_matter_boots.name=Dark Matter Boots
+item.ee:dark_matter_chestplate.name=Dark Matter Chestplate
+item.ee:dark_matter_helmet.name=Dark Matter Helmet
+item.ee:dark_matter_leggings.name=Dark Matter Leggings
+
+# Tools
+item.ee:dark_matter_axe.name=Dark Matter Axe
+item.ee:dark_matter_fishing_rod.name=Dark Matter Fishing Rod
+item.ee:dark_matter_hoe.name=Dark Matter Hoe
+item.ee:dark_matter_pickaxe.name=Dark Matter Pickaxe
+item.ee:dark_matter_shears.name=Dark Matter Shears
+item.ee:dark_matter_shovel.name=Dark Matter Shovel
+item.ee:dowsing_rod.name=Dowsing Rod
+item.ee:loden_stone.name=Loden Stone
+item.ee:mercurial_eye.name=Mercurial Eye
+item.ee:minium_stone.name=Minium Stone
+item.ee:philosophers_stone.name=Philosophers Stone
+item.ee:watch.name=Watch of Flowing Time
+
+# Weapons
+item.ee:dark_matter_arrow.name=Dark Matter Arrow
+item.ee:dark_matter_bow.name=Dark Matter Bow
+item.ee:dark_matter_sword.name=Dark Matter Sword
+item.ee:kunai.name=Kunai
