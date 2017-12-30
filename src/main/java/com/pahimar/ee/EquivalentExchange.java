@@ -7,6 +7,13 @@ import net.minecraftforge.fml.common.event.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * TODO Finish Javadoc
+ *
+ * @author      pahimar
+ *
+ * @since       3.0.0
+ */
 @Mod(modid = EquivalentExchange.MOD_ID,
         name = "Equivalent Exchange",
         certificateFingerprint = EquivalentExchange.FINGERPRINT,

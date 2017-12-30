@@ -44,7 +44,6 @@ public class CommonProxy {
      * @since   3.0.0
      */
     public void onInit(FMLInitializationEvent event) {
-
     }
 
     /**
