@@ -30,7 +30,7 @@ import java.util.List;
  */
 @GameRegistry.ObjectHolder(EquivalentExchange.MOD_ID)
 @Mod.EventBusSubscriber
-public class ModItems {
+public final class ModItems {
 
     /**
      * TODO Finish Javadoc
@@ -38,40 +38,40 @@ public class ModItems {
     private static final List<ItemBase> ITEMS = new ArrayList<>();
 
     // Misc
-    public static final ItemBase ALCHEMICAL_BAG = new ItemAlchemicalBag();
-    public static final ItemBase ALCHEMICAL_DUST = new ItemAlchemicalDust();
-    public static final ItemBase ALCHEMICAL_FUEL = new ItemAlchemicalFuel();
-    public static final ItemBase ALCHENOMICON = new ItemAlchenomicon();
-    public static final ItemBase CHALK = new ItemChalk();
-    public static final ItemBase CLOAK = new ItemCloak();
-    public static final ItemBase DARK_MATTER = new ItemDarkMatter();
-    public static final ItemBase SCROLL = new ItemScroll();
+    public static final ItemBase ALCHEMICAL_BAG = null;
+    public static final ItemBase ALCHEMICAL_DUST = null;
+    public static final ItemBase ALCHEMICAL_FUEL = null;
+    public static final ItemBase ALCHENOMICON = null;
+    public static final ItemBase CHALK = null;
+    public static final ItemBase CLOAK = null;
+    public static final ItemBase DARK_MATTER = null;
+    public static final ItemBase SCROLL = null;
 
     // Armor
-    public static final ItemBase DARK_MATTER_BOOTS = new ItemDarkMatterBoots();
-    public static final ItemBase DARK_MATTER_CHEST = new ItemDarkMatterChest();
-    public static final ItemBase DARK_MATTER_HELMET = new ItemDarkMatterHelmet();
-    public static final ItemBase DARK_MATTER_LEGGINGS = new ItemDarkMatterLeggings();
+    public static final ItemBase DARK_MATTER_BOOTS = null;
+    public static final ItemBase DARK_MATTER_CHEST = null;
+    public static final ItemBase DARK_MATTER_HELMET = null;
+    public static final ItemBase DARK_MATTER_LEGGINGS = null;
 
     // Tools
-    public static final ItemBase DARK_MATTER_AXE = new ItemDarkMatterAxe();
-    public static final ItemBase DARK_MATTER_FISHING_ROD = new ItemDarkMatterFishingRod();
-    public static final ItemBase DARK_MATTER_HOE = new ItemDarkMatterHoe();
-    public static final ItemBase DARK_MATTER_PICKAXE = new ItemDarkMatterPickaxe();
-    public static final ItemBase DARK_MATTER_SHEARS = new ItemDarkMatterShears();
-    public static final ItemBase DARK_MATTER_SHOVEL = new ItemDarkMatterShovel();
-    public static final ItemBase DOWSING_ROD = new ItemDowsingRod();
-    public static final ItemBase LODEN_STONE = new ItemLodenStone();
-    public static final ItemBase MERCURIAL_EYE = new ItemMercurialEye();
-    public static final ItemBase MINIUM_STONE = new ItemMiniumStone();
-    public static final ItemBase PHILOSOPHERS_STONE = new ItemPhilosophersStone();
-    public static final ItemBase WATCH = new ItemWatch();
+    public static final ItemBase DARK_MATTER_AXE = null;
+    public static final ItemBase DARK_MATTER_FISHING_ROD = null;
+    public static final ItemBase DARK_MATTER_HOE = null;
+    public static final ItemBase DARK_MATTER_PICKAXE = null;
+    public static final ItemBase DARK_MATTER_SHEARS = null;
+    public static final ItemBase DARK_MATTER_SHOVEL = null;
+    public static final ItemBase DOWSING_ROD = null;
+    public static final ItemBase LODEN_STONE = null;
+    public static final ItemBase MERCURIAL_EYE = null;
+    public static final ItemBase MINIUM_STONE = null;
+    public static final ItemBase PHILOSOPHERS_STONE = null;
+    public static final ItemBase WATCH = null;
 
     // Weapons
-    public static final ItemBase DARK_MATTER_ARROW = new ItemDarkMatterArrow();
-    public static final ItemBase DARK_MATTER_BOW = new ItemDarkMatterBow();
-    public static final ItemBase DARK_MATTER_SWORD = new ItemDarkMatterSword();
-    public static final ItemBase KUNAI = new ItemKunai();
+    public static final ItemBase DARK_MATTER_ARROW = null;
+    public static final ItemBase DARK_MATTER_BOW = null;
+    public static final ItemBase DARK_MATTER_SWORD = null;
+    public static final ItemBase KUNAI = null;
 
     /**
      * TODO Finish Javadoc
@@ -94,18 +94,6 @@ public class ModItems {
     /**
      * TODO Finish Javadoc
      *
-     * @param   itemBase
-     *          TODO
-     *
-     * @since   3.0.0
-     */
-    public static void register(ItemBase itemBase) {
-        ITEMS.add(itemBase);
-    }
-
-    /**
-     * TODO Finish Javadoc
-     *
      * @param   event
      *          TODO
      *
@@ -116,5 +104,36 @@ public class ModItems {
         for (ItemBase itemBase : ITEMS) {
             event.getRegistry().register(itemBase);
         }
+    }
+
+    static {
+        ITEMS.add(new ItemAlchemicalBag());
+        ITEMS.add(new ItemAlchemicalDust());
+        ITEMS.add(new ItemAlchemicalFuel());
+        ITEMS.add(new ItemAlchenomicon());
+        ITEMS.add(new ItemChalk());
+        ITEMS.add(new ItemCloak());
+        ITEMS.add(new ItemDarkMatter());
+        ITEMS.add(new ItemScroll());
+        ITEMS.add(new ItemDarkMatterBoots());
+        ITEMS.add(new ItemDarkMatterChest());
+        ITEMS.add(new ItemDarkMatterHelmet());
+        ITEMS.add(new ItemDarkMatterLeggings());
+        ITEMS.add(new ItemDarkMatterAxe());
+        ITEMS.add(new ItemDarkMatterFishingRod());
+        ITEMS.add(new ItemDarkMatterHoe());
+        ITEMS.add(new ItemDarkMatterPickaxe());
+        ITEMS.add(new ItemDarkMatterShears());
+        ITEMS.add(new ItemDarkMatterShovel());
+        ITEMS.add(new ItemDowsingRod());
+        ITEMS.add(new ItemLodenStone());
+        ITEMS.add(new ItemMercurialEye());
+        ITEMS.add(new ItemMiniumStone());
+        ITEMS.add(new ItemPhilosophersStone());
+        ITEMS.add(new ItemWatch());
+        ITEMS.add(new ItemDarkMatterArrow());
+        ITEMS.add(new ItemDarkMatterBow());
+        ITEMS.add(new ItemDarkMatterSword());
+        ITEMS.add(new ItemKunai());
     }
 }

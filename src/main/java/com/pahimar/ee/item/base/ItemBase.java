@@ -2,7 +2,6 @@ package com.pahimar.ee.item.base;
 
 import com.pahimar.ee.EquivalentExchange;
 import com.pahimar.ee.creativetab.CreativeTab;
-import com.pahimar.ee.init.ModItems;
 import com.pahimar.ee.util.ResourceLocationUtil;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -61,7 +60,6 @@ public class ItemBase extends Item implements IItemVariant<ItemBase> {
         else {
             this.variants = new String[0];
         }
-        ModItems.register(this);
     }
 
     /**
