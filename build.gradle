@@ -77,20 +77,7 @@ processResources {
     }
 }
 
-task devJar(type: Jar, dependsOn: "classes") {
-    from(sourceSets.main.output) {
-        include "**"
-    }
-
-    extension = "jar"
-    classifier = "dev"
-}
-
-artifacts {
-    archives devJar
-}
-
-task signJar(type: SignJar, dependsOn: ["jar", "devJar"]) {
+task signJar(type: SignJar, dependsOn: "jar") {
     onlyIf {
         project.hasProperty('keystore_location')
     }
@@ -110,7 +97,6 @@ curseforge {
         releaseType = mod_release_type
         changelogType = 'text'
         changelog = file("build/libs/${project.archivesBaseName}-${project.version}-changelog.txt")
-        addArtifact devJar
         relations {
             optionalLibrary 'jei'
         }
